@@ -1,0 +1,239 @@
+experiment_id,reagent_id,selected_well,analog_wells,justification
+0,0,A2,[],Phenylboronic acid is needed for the Suzuki reaction as the boronic acid component.
+0,1,B1,"['B2', 'B3', 'B4']","Halides like iodobenzene, bromobenzene, chlorobenezene and p-nitroiodobenzene can be used for Suzuki reaction."
+0,2,C1,['C2'],Palladium catalyst is mandatory for Suzuki reaction. Both Pd(PPh3)2Cl2 and PEPPSI-IPr can be used.
+0,3,D1,['D2'],A base is required for the Suzuki reaction. Both triethylamine and DBU are satisfactory bases.
+1,0,A2,[],Used as the boronic acid in Suzuki reaction
+1,1,B1,"['B2', 'B3', 'B4']",Used as the halogen compound in Suzuki reaction
+1,2,C1,['C2'],Used as the Palladium catalyst in Suzuki reaction
+1,3,D1,['D2'],Used as the base in Suzuki reaction
+2,0,A2,[],Phenylboronic acid is a commonly used reagent in Suzuki reactions.
+2,1,B1,"['B2', 'B3', 'B4']","Aryl halides, such as iodobenzene, bromobenzene, chlorobenzene, and p-nitroiodobenzene can be used in Suzuki reactions."
+2,2,C1,['C2'],"Palladium catalysts, like Pd(PPh3)2Cl2, are used in the Suzuki reaction."
+2,3,D1,['D2'],"The base, triethylamine, is required in the Suzuki reaction. DBU can potentially be used as an alternate base."
+3,0,B1,"['B2', 'B3', 'B4']","Iodobenzene is used due to its high reactivity as an organohalide, compared to other available halides"
+3,1,A2,[],Phenylboronic acid is used as it's the only organoboron compound available
+3,2,D1,['D2'],"Triethylamine is chosen as the base due to its more general use and stability in the Suzuki reaction, compared to DBU"
+3,3,C1,['C2'],"Pd(PPh3)2Cl2 is chosen as the catalyst due to its prevalent usage in the Suzuki reaction, over other catalysts like PEPPSI-IPr"
+4,0,A2,[],Phenylboronic acid is needed for the Suzuki reaction.
+4,1,B1,"['B2', 'B3', 'B4']","Iodide is a good leaving group, making iodobenzene an ideal choice for this reaction."
+4,2,C1,['C2'],Pd(PPh3)2Cl2 is a common palladium catalyst utilized in the Suzuki reaction.
+4,3,D1,['D2'],Triethylamine is a commonly used base in Suzuki reactions.
+4,4,E1,[],DMF is a suitable solvent for the Suzuki reaction.
+5,0,A2,[],Phenylboronic acid is typically used in Suzuki reactions.
+5,1,B1,['B2'],Iodobenzene and bromobenzene are commonly used halides in the Suzuki reaction.
+5,2,C1,[],Pd(PPh3)2Cl2 is a standard catalyst for the Suzuki reaction.
+5,3,D1,[],Triethylamine is a common base used in the reaction.
+6,0,A2,[],Phenylboronic acid is a commonly used aryl boronic acid in Suzuki reactions
+6,1,B1,"['B2', 'B4']","Iodobenzene is used as it is an aryl halide, which is required for the Suzuki reaction. Bromobenzene and p-nitroiodobenzene can be used as alternatives."
+6,2,C1,['C2'],Pd(PPh3)2Cl2 is a commonly used catalyst in Suzuki reactions. PEPPSI-IPr can be used as an alternative.
+6,3,D1,['D2'],Triethylamine is a commonly used base in Suzuki reactions. DBU can be used as an alternative.
+7,0,A2,[],Phenylboronic acid is needed as the organoboron compound in Suzuki reactions
+7,1,B2,['B3'],"Bromobenzene, as an organohalide, can pair with the organoboron compound to form the product"
+7,2,C2,['C1'],PEPPSI-IPr (NHC-Pd complex) is more stable under Suzuki reaction conditions
+7,3,D1,['D2'],Triethylamine is commonly used in literature
+7,4,E1,[],DMF is a solvent suitable for Suzuki reactions
+8,0,A2,['B2'],Phenylboronic acid (A2) was selected due to its compatibility with Suzuki reactions.
+8,1,B1,['B2'],Iodobenzene (B1) was selected due to its good reactivity in Suzuki reactions.
+8,2,C1,[],Pd(PPh3)2Cl2 (C1) is the commonly used catalyst for Suzuki reactions.
+8,3,D1,[],Triethylamine (D1) is commonly used as the base in Suzuki reactions.
+9,0,B1,['B2'],Iodobenzene chosen because iodine is a better leaving group than bromine
+9,1,A2,[],Phenylboronic acid is required for the Suzuki reaction
+9,2,C1,['C2'],Pd(PPh3)2Cl2 chosen since it is a commonly used catalyst for Suzuki reactions
+9,3,D1,['D2'],Triethylamine chosen due to lower steric hindrance compared to DBU
+10,0,B2,[],Chosen as the organohalide species for Suzuki reaction.
+10,1,A2,[],Chosen as the organoboron species for Suzuki reaction.
+10,2,C1,[],Chosen as the palladium catalyst for Suzuki reaction.
+10,3,D1,[],Selected as the base for Suzuki reaction.
+10,4,E1,[],It is the solvent for the reaction.
+11,0,B1,[],Reactant in a Suzuki reaction that can be coupled with phenylboronic acid.
+11,1,A2,[],Reactant in a Suzuki reaction that can be coupled with iodobenzene.
+11,2,C1,['C2'],"Palladium catalyst for the Suzuki reaction, commonly used and reliable."
+11,3,D1,['D2'],Base to facilitate the transmetallation step of the Suzuki reaction.
+12,0,B1,"['B2', 'B4']",Iodobenzene has the highest reactivity among the available halides.
+12,1,A2,[],Phenylboronic acid is the only available organoboron.
+12,2,C1,['C2'],Pd(PPh3)2Cl2 is a commonly used catalyst for Suzuki reactions.
+12,3,D1,['D2'],Triethylamine is suitable as a general base in this reaction.
+13,0,C1,['C2'],Pd(PPh3)2Cl2 is commonly used as a catalyst in Suzuki reactions.
+13,1,A2,[],Phenylboronic acid is a typical organoboron compound used in Suzuki reactions.
+13,2,B1,"['B2', 'B3', 'B4']",Iodobenzene chosen for its higher reactivity compared to bromobenzene and chlorobenzene.
+13,3,D1,['D2'],Triethylamine is commonly used as a base in Suzuki reactions.
+14,0,A2,[],Phenylboronic acid is the only boronic acid we have
+14,1,B1,"['B2', 'B3', 'B4']","It is more active in Suzuki coupling than bromo or chlorobenzene. p-nitroiodobenzene could also undergo the reaction, but p-nitro group could somehow interfere with the catalyst."
+14,2,C2,['C1'],PEPPSI-IPr contains N-heterocyclic carbene which is considered beneficial for Suzuki reaction.
+14,3,D1,['D2'],It's a mild base that's often used in coupling reactions
+15,0,A2,[],Phenylboronic acid is typically used in Suzuki reaction as the boronic acid reagent.
+15,1,B1,"['B2', 'B3', 'B4']",Multiple aryl halides (B1-B4) are selected that can undergo the Suzuki reaction.
+15,2,C1,['C2'],Pd(PPh3)2Cl2 is a commonly used catalyst in Suzuki reaction. PEPPSI-IPr can also be used as it enhances the oxidative addition step.
+15,3,D1,['D2'],"Triethylamine is selected as the base, DBU can be an alternative."
+16,0,A2,"['A1', 'A2']",Phenylboronic acid is required for the Suzuki reaction.
+16,1,B2,"['B1', 'B2', 'B3', 'B4']","An organohalide, Bromobenzene, is required for the Suzuki reaction."
+16,2,C1,"['C1', 'C2']",A Palladium catalyst is required for the Suzuki reaction.
+16,3,D1,"['D1', 'D2']","A base, Triethylamine, can aid the Suzuki reaction."
+17,0,A2,[],Phenylboronic acid is the primary reagent for Suzuki reactions
+17,1,B2,[],Bromobenzene is a suitable halide for Suzuki reactions
+17,2,C1,[],Pd(PPh3)2Cl2 is a suitable catalyst for Suzuki reactions
+17,3,D1,[],Triethylamine is a suitable base for Suzuki reactions
+18,0,C1,['C2'],Pd(PPh3)2Cl2 is commonly used in Suzuki reaction as a catalyst
+18,1,D2,['D1'],DBU is a strong organic base and is compatible with Suzuki reaction conditions
+18,2,B2,"['B1', 'B3', 'B4']",Bromobenzene is a valid choice for an aryl halide in Suzuki reactions
+18,3,A2,[],Phenylboronic acid is commonly used as an organoborane reagent in the Suzuki reaction
+19,0,B2,[],Commonly used halide in Suzuki reaction
+19,1,A2,[],Usual boronic acid for Suzuki reaction
+19,2,C1,['C2'],Commonly used catalyst in Suzuki reaction
+19,3,D1,['D2'],Commonly used base in Suzuki reaction
+20,0,B1,[],"Iodobenzene is an organic halide, which is a key reactant in the Suzuki reaction."
+20,1,A2,[],"Phenylboronic acid is an organoboron compound, which is a necessary reactant in the Suzuki reaction."
+20,2,C1,['C2'],"Pd(PPh3)2Cl2 is a palladium catalyst, which is necessary for the Suzuki reaction."
+20,3,D1,['D2'],"Triethylamine is a base, which is necessary for the Suzuki reaction."
+21,0,A2,[],This is the only available organoboronic acid.
+21,1,B2,"['B3', 'B4']","Bromobenzene is chosen due to its higher reactivity compared to chlorobenzene, but lower reactivity than iodobenzene, making it selective."
+21,2,C1,['C2'],Pd(PPh3)2Cl2 is selected as it is a common catalyst for this reaction.
+21,3,D1,['D2'],Triethylamine is chosen due to its common use as a base in this reaction.
+22,0,A2,['A1'],"A2 is phenylboronic acid, which is a typical boronic acid used in Suzuki reactions."
+22,1,B1,"['B2', 'B3', 'B4']","B1 is iodobenzene, a halide, required for the Suzuki reaction."
+22,2,C1,[],"C1 is Pd(PPh3)2Cl2, a palladium catalyst, required for the Suzuki reaction."
+22,3,D1,['D2'],"D1 is triethylamine, needed as a base in the Suzuki reaction."
+23,0,A2,[],Phenylboronic acid is chosen because it is typically used as a reagent in Suzuki reactions.
+23,1,B2,"['B1', 'B3', 'B4']","Bromobenzene is chosen as the main aryl halide, but other halides can be used as well."
+23,2,C1,['C2'],"Pd(PPh3)2Cl2 is primarily used as it is a popular catalyst for Suzuki reactions, but PEPPSI-IPr could also be used."
+23,3,D1,['D2'],"Triethylamine is used as the base, but DBU could also be used."
+24,0,A2,[],This reagent is used because it is a typical boronic acid used in Suzuki reactions.
+24,1,B2,"['B1', 'B3', 'B4']",This reagent is selected for being a more reactive halide species (bromide).
+24,2,C2,['C1'],This catalyst is used because it can form an active Pd(0) species required for Suzuki reactions.
+24,3,D1,['D2'],This base is chosen for its common use in these reactions and higher concentration in our setup.
+25,0,A2,[],Phenylboronic acid is a typical organoboron compound used in the Suzuki-Miyaura coupling
+25,1,B2,"['B1', 'B4']","Bromobenzene is less reactive than iodobenzene, providing controllable reaction conditions"
+25,2,C1,['C2'],Pd(PPh3)2Cl2 is a common Pd catalyst used in the Suzuki reaction
+25,3,D1,['D2'],Triethylamine is a common base used in the Suzuki reaction
+26,0,A2,[],used as an organoboron reagent in Suzuki reaction
+26,1,B2,"['B1', 'B3', 'B4']",reactive aryl halide used in the reaction
+26,2,C1,[],serves as catalyst in the reaction
+26,3,D1,[],serves as a base in the reaction
+27,0,A2,[],"Phenylboronic acid, which is used as an organoborane compound in Suzuki reaction"
+27,1,B1,"['B2', 'B3', 'B4']","Here we have several organohalide compounds, any of these can be used in the Suzuki reaction"
+27,2,C1,['C2'],"Palladium catalyst is needed for Suzuki reaction. Here we are using Pd(PPh3)2Cl2, while PEPPSI-IPr could be potentially used as well"
+27,3,D1,['D2'],We are using triethylamine as the base in this Suzuki reaction
+28,0,A2,"['B1', 'B2', 'B3', 'B4']",Phenylboronic acid is used as this is a reagent used in Suzuki reactions and is necessary for the formation of the product.
+28,1,C1,[],Pd(PPh3)2Cl2 is used as it is a typical catalyst used in Suzuki reactions.
+28,2,D1,['D2'],Triethylamine is used as a base in the Suzuki reaction.
+29,0,B2,"['B1', 'B3', 'B4']","Aryl halide is a key component in Suzuki reaction, bromobenzene was selected for its high reactivity among available halides."
+29,1,A2,[],"Phenylboronic is the only available boronic acid, which is needed for the transmetallation step in Suzuki reaction."
+29,2,C1,['C2'],Pd(PPh3)2Cl2 was selected as it's a commonly used palladium catalyst in Suzuki reactions.
+29,3,D1,['D2'],Triethylamine was selected as it is a common base used in such reactions.
+30,0,A2,[],Phenylboronic acid is used as it is a key reagent for Suzuki reaction
+30,1,B2,[],Bromobenzene is used as it is a suitable halide for Suzuki reaction
+30,2,C1,[],Pd(PPh3)2Cl2 is commonly used as a catalyst in Suzuki reaction
+30,3,D1,[],Triethylamine is commonly used as a base in Suzuki reaction
+31,0,A2,[],Phenylboronic acid is essential for the Suzuki reaction to form carbon-carbon bond
+31,1,B1,"['B2', 'B3', 'B4']",Chosen initially due to its high reactivity; analogs could provide potential reaction options
+31,2,C1,[],This palladium catalyst is standard for the Suzuki reaction
+32,0,A2,[],"phenylboronic acid, required for Suzuki reaction"
+32,1,B1,"['B2', 'B3', 'B4']","halogenated compound, iodobenzene chosen for optimal results"
+32,2,C1,['C2'],"palladium catalyst, Pd(PPh3)2Cl2 chosen for optimal results"
+32,3,D1,['D2'],"base, triethylamine chosen for optimal results"
+33,0,A2,[],Phenylboronic acid is required for the Suzuki Reaction. No other boronic acids are available.
+33,1,B1,"['B2', 'B3', 'B4']","Iodobenzene is chosen as the halide because it is the first available, but bromobenzene, chlorobenzene, or p-nitroiodobenzene could also work."
+33,2,C1,['C2'],"Pd(PPh3)2Cl2 is chosen as the catalyst since it is traditionally used in Suzuki cross-coupling reactions, but the NHC-Pd complex, PEPPSI-IPr, could also work."
+33,3,D1,['D2'],"Triethylamine (base) is chosen because it is the first available, but DBU could also work."
+34,0,A2,[],Phenylboronic acid is a common reagent for Suzuki reactions
+34,1,C1,[],Pd(PPh3)2Cl2 is a common catalyst for Suzuki reactions
+34,2,D1,['D2'],"Triethylamine is a common base for this type of reactions, DBU can be used as a stronger base"
+34,3,B1,"['B2', 'B4']",Aryl halides such as iodobenzene and bromobenzene are commonly used in Suzuki reactions. p-nitroiodobenzene can be employed to explore the influence of electron-deficient arenes (B4)
+34,4,E1,[],DMF is a common solvent for Suzuki reaction
+35,0,C1,['C2'],This is a common Pd(0) catalyst used in Suzuki reactions
+35,1,B1,"['B2', 'B3']",These are organohalides available for the reaction. Iodobenzene (B1) is selected as its reactivity is higher than that of bromobenzene (B2) and chlorobenzene (B3)
+35,2,A2,[],Phenylboronic acid is a typical boronic acid used in Suzuki reactions.
+36,0,A2,[],Phenylboronic acid is a required reagent for the Suzuki reaction
+36,1,B1,"['B2', 'B3', 'B4']","Iodobenzene has the highest concentration among the organohalides, as the quantity would be enough for the reaction"
+36,2,C1,['C2'],Pd(PPh3)2Cl2 is a typical catalyst for the Suzuki reaction
+36,3,D1,['D2'],Triethylamine is commonly used in Suzuki reactions and we have a large quantity available
+37,0,A2,['A2'],Phenylboronic acid is our Boronic acid reagent.
+37,1,B3,['B3'],Chlorobenzene selected as halogen compound.
+37,2,C1,['C1'],Pd(PPh3)2Cl2 is our Palladium catalyst.
+37,3,D1,['D1'],Triethylamine selected as base.
+38,0,A2,[],Only available boronic acid from the list.
+38,1,B1,"['B2', 'B3', 'B4']",All options are aryl halides hence can be used in Suzuki reaction.
+38,2,C1,['C2'],"Both compounds are palladium complexes, hence can serve as catalysts."
+38,3,D1,['D2'],"Both triethylamine and DBU can serve as bases, hence can be used interchangeably."
+39,0,A2,[],Phenylboronic acid is a common reagent used in Suzuki reactions due to its less toxic nature and fair availability. It offers versatility in synthesis leading to a variety of substituted biphenyls.
+39,1,B1,"['B2', 'B3', 'B4']","Iodobenzene is selected because aryl halides are usually involved in Suzuki reactions as well. Other halides in the same group include bromobenzene, chlorobenzene, and p-nitroiodobenzene."
+39,2,C1,['C2'],"Pd(PPh3)2Cl2 is a common palladium catalyst used in Suzuki reactions, though other similar palladium complexes like PEPPSI-IPr could also be used."
+39,3,D1,['D2'],Triethylamine is selected because bases are generally involved in Suzuki reactions as well. Another option could be DBU.
+40,0,A2,[],Phenylboronic Acid is used as it can couple with aryl halides in a Suzuki reaction
+40,1,B1,"['B2', 'B3', 'B4']",Iodobenzene chosen as a representative aryl halide; alternatives can be used
+40,2,C1,['C2'],"Pd(PPh3)2Cl2 used as palladium catalyst, alternative could be PEPPSI-IPr"
+40,3,D1,['D2'],"Triethylamine used as base, alternative could be DBU"
+41,0,A2,[],Phenylboronic acid (in well A2) is typically used in Suzuki reactions
+41,1,B1,['B2'],Halides like iodobenzene (in well B1) and bromobenzene (in well B2) are typically used in Suzuki reactions
+41,2,C1,['C2'],Palladium catalysts like Pd(PPh3)2Cl2 (in well C1) and PEPPSI-IPr (in well C2) are typically used in Suzuki reactions
+41,3,D1,['D2'],Bases like triethylamine (in well D1) and DBU (in well D2) are typically used in Suzuki reactions
+42,0,A2,[],"Organoboron compounds are typically used in Suzuki reactions, and phenylboronic acid is our available organoboron compound."
+42,1,B1,"['B2', 'B3', 'B4']","Iodobenzene (B1) can be our selected halide, but for optimization purposes, we could also use bromobenzene (B2), chlorobenzene (B3), and p-nitroiodobenzene (B4)."
+42,2,C1,[],Pd(PPh3)2Cl2 is a commonly used palladium catalyst in Suzuki reactions.
+42,3,D1,['D2'],"We will use triethylamine as our initial base, but could also use DBU for optimization purposes."
+43,0,A2,[],Phenylboronic acid is the only organoboron reagent we have
+43,1,B1,"['B2', 'B4']",Iodobenzene is chosen for its high reactivity. Bromobenzene is less reactive and p-nitroiodobenzene has an electron withdrawing group which makes it less reactive.
+43,2,C1,['C2'],"Traditional catalyst Pd(PPh3)2Cl2 is chosen, with PEPPSI-IPr being an interesting alternative to test."
+43,3,D1,['D2'],"Triethylamine is a suitable base, whilst DBU, being stronger, might speed up the reaction at the risk of side reactions."
+44,0,A2,[],Only reagent that can undergo a Suzuki reaction
+44,1,B1,"['B2', 'B3', 'B4']",Most reactive halogenated arene due to the largest atomic size of iodine
+44,2,C1,['C2'],Most commonly used Pd catalyst for Suzuki reactions
+44,3,D1,['D2'],Higher concentration amongst the bases
+45,0,A2,"['B2', 'B3', 'B4']",Phenylboronic acid is the reagent for Suzuki coupling and reacts with an aryl halide.
+45,1,B2,"['A1', 'B1', 'B3', 'B4']",Bromobenzene was selected among other halides due to its reactivity and availability in our compound library.
+45,2,C1,['C2'],Palladium catalyst is convenient for this reaction. Other Pd catalysts could also be used.
+45,3,D1,['D2'],Triethylamine was selected among other bases due to its mild conditions.
+46,0,A2,[],Phenylboronic acid is a reagent commonly used in Suzuki reactions.
+46,1,B2,"['B1', 'B4']","Bromobenzene, being an aryl halide, is a suitable partner for the phenylboronic acid in the Suzuki reaction."
+46,2,C1,[],Palladium catalysts are essential for Suzuki reactions.
+46,3,D1,['D2'],"A base is needed to deprotonate the boronic acid, and triethylamine is capable of doing that."
+47,0,B1,[],Iodobenzene is selected as it is an aryl halide required for the Suzuki reaction.
+47,1,A2,[],Phenylboronic acid is selected as it is an organoboron compound required for the Suzuki reaction.
+47,2,C1,[],Pd(PPh3)2Cl2 is selected as it is a palladium catalyst required for the Suzuki reaction.
+47,3,D1,[],Triethylamine is selected as it will act as the base in the Suzuki reaction.
+48,0,A2,[],Phenylboronic acid is chosen as the organoborane reactant in this reaction as it is available in the stock and is commonly used in the Suzuki reaction
+48,1,B1,"['B2', 'B3', 'B4']","One of the reactants in Suzuki reaction would typically be a halide. Iodobenzene has been chosen here as it is available in the stock. Bromobenzene, chlorobenzene, and p-nitroiodobenzene would also work in this reaction."
+48,2,C1,['C2'],Pd(PPh3)2Cl2 is a common catalyst for the Suzuki reaction. PEPPSI-IPr could possibly also work as the palladium source
+48,3,D2,['D1'],DBU is a commonly used base in the Suzuki reaction. Triethylamine could potentially also function as the base.
+49,0,A2,[],phenylboronic acid is the only organoborane available
+49,1,B1,"['B2', 'B3', 'B4']",iodobenzene is the most reactive halide available
+49,2,D1,['D2'],"both are bases, but triethylamine is more conventional in Suzuki reactions"
+49,3,C1,['C2'],"both can act as catalyst, but Pd(PPh3)2Cl2 is more traditional for Suzuki couplings"
+50,0,B1,"['B2', 'B3', 'B4']",Iodobenzene is typically used in Suzuki reactions due to its reactivity.
+50,1,A2,[],Phenylboronic acid is a common reagent in Suzuki reactions.
+50,2,C1,['C2'],"Pd(PPh3)2Cl2 is the traditional catalyst for Suzuki reactions, but PEPPSI-IPr can also work."
+50,3,D1,['D2'],"Triethylamine is the common base used, but DBU can be substituted."
+51,0,A2,[],Phenylboronic acid is the commonly used boronic acid in the Suzuki reaction
+51,1,B1,"['B2', 'B4']","Iodobenzene, Bromobenzene, and p-Nitroiodobenzene are all suitable aryl halides"
+51,2,D1,['D2'],"Triethylamine selected as the base for the reaction, with DBU as another option"
+51,3,C2,['C1'],PEPPSI-IPr selected as the catalyst because it contains palladium and is commonly used in Suzuki reactions
+52,0,A2,[],Only boronic acid available
+52,1,B2,[],More reactive organohalide
+52,2,C1,['C2'],More common palladium catalytic species
+52,3,D1,['D2'],More commonly used base
+53,0,A2,[],This compound is being used as the boronic acid in the Suzuki reaction.
+53,1,B2,[],This compound is being used as the aryl halide in the Suzuki reaction.
+53,2,C1,[],This palladium complex is used as the palladium catalyst for the Suzuki reaction.
+53,3,D2,[],This compound is used as the base in the Suzuki reaction.
+54,0,A2,[],Common reagent used in Suzuki reaction
+54,1,B2,"['B3', 'B1']",Preferred organohalide due to reasonable activity level and safety factor
+54,2,C1,['C2'],Commonly used as it's catalyst in the reaction
+54,3,D1,['D2'],Will be utilized in this reaction as our base
+55,0,A2,[],Phenylboronic acid is a typical substrate used in Suzuki reactions.
+55,1,B1,"['B2', 'B3', 'B4']",Iodobenzene is a typical substrate used in Suzuki reactions.
+55,2,C1,[],Pd(PPh3)2Cl2 is a commonly used catalyst in Suzuki reactions.
+55,3,D1,[''],Triethylamine is a commonly used base in Suzuki reactions.
+55,4,E1,[],DMF is a commonly used solvent in Suzuki reactions.
+56,0,B1,"['B2', 'B3', 'B4']",Iodobenzene was selected due to its higher reactivity compared to other halides.
+56,1,A2,[],Phenylboronic acid is the only boronic acid available.
+56,2,C2,['C1'],PEPPSI-IPr was selected as it has excellent performance in various Suzuki-Miyaura reactions.
+56,3,D2,['D1'],DBU was selected as it is a stronger base which could facilitate the transmetallation step more efficiently.
+57,0,A2,[],Phenylboronic acid is the only boronic acid available
+57,1,B1,"['B2', 'B3', 'B4']","Iodobenzene is the most reactive organohalide available. Other options, bromobenzene and chlorobenzene might also react, albeit less efficiently. p-Nitroiodobenzene can be used as the nitro group might decrease the reactivity of the iodobenzene."
+57,2,C1,['C2'],Pd(PPh3)2Cl2 is a commonly used catalyst for Suzuki reactions. An alternative might be PEPPSI-IPr (NHC-Pd complex) stored in well C2.
+57,3,D1,['D2'],"Triethylamine is a common base used in the Suzuki reaction. Alternatively, DBU could work."
+58,0,B1,"['B2', 'B3', 'B4']",Iodobenzene is more reactive in comparison to others because of the oxidation potentials.
+58,1,A2,[],Phenylboronic acid will provide the phenyl group to the product and is needed for Suzuki reaction.
+58,2,D1,['D2'],"Triethylamine is a strong, non-nucleophilic base."
+58,3,C1,['C2'],This is a commonly used catalyst for Suzuki reactions.
